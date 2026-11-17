@@ -1,0 +1,14 @@
+{
+  "name": "riftbound",
+  "version": "1.0.0",
+  "description": "RIFTBOUND — a collectible-Drifter WhatsApp game bot",
+  "main": "bot.js",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node bot.js", "pair": "node pair.js", "test": "node test.js" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "@hapi/boom": "10.0.1",
+    "pino": "9.5.0",
+    "qrcode-terminal": "0.12.0"
+  }
+}
